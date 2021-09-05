@@ -1,0 +1,126 @@
+[
+    {
+        "title":"A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?",
+        "options":[3.6,7.2,8.4,10],
+        "extension":"km/hr",
+        "answer":"B",
+        "explanation":[
+            "Speed = (600/(50*60)) m/sec",
+            "= 2 m/sec.",
+            "Converting m/sec to km/hr",
+            "= ((2 x 18) / 5) km/hr",
+            "= 7.2 km/hr."
+        ]
+    },
+    {
+        "title":"An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1 hours, it must travel at a speed of:",
+        "options":[300, 360, 600, 720],
+        "extension":"kmph",
+        "answer":"D",
+        "explanation":[
+            "Distance = (240 x 5) = 1200 km.",
+            "Speed = Distance/time",
+            "Speed = 1200/(5/3) km/hr",
+            "[We can write 1 hours as 5/3 hours]",
+            "Required speed = (1200 x (3/5)) km/hr = 720 km/hr"
+        ]
+    },
+    {
+        "title":"If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+        "options":[50,56,70,80],
+        "extension":"km",
+        "answer":"A",
+        "explanation":[
+            "Let the actual distance travelled be x km",
+            "Then, x/10 = (x+20)/14",
+            "==> 14x = 10x + 200",
+            "==> 4x = 200",
+            "==> x = 50 km"
+        ]
+    },
+    {
+        "title":"A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:",
+        "options":[100, 110, 120, 130],
+        "extension":"kmph",
+        "answer":"C",
+        "explanation":[
+            "Let the speed of the car be x kmph.",
+            "Then, speed of the train = (150/200)x = (3/2)x kmph",
+            ":: 75/x - 75/((3/2)x) = 125/(10 x 60)",
+            "75/x - 50/x = 5/24",
+            "x = ((25*24)/5) = 120 kmph"
+        ]
+    },
+    {
+        "title":"Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+        "options":[9, 10, 12, 20],
+        "extension":"min",
+        "answer":"B",
+        "explanation":[
+            "Due to stoppages, it covers 9 km less",
+            "Time taken to conver 9 km = ((9/24)*60) min = 10 min"
+        ]
+    },
+    {
+        "title":"In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average speed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is:",
+        "options":[1, 2, 3, 4],
+        "isExtensions":true,
+        "extensions":["hr","hrs","hrs","hrs"],
+        "answer":"A",
+        "explanation":[
+            "Let the duration of the flight be x hours",
+            "Then 600/x - 600/(x + (1/2)) = 200",
+            "=> 600/x - 1200/2x + 1 = 200",
+            "=> x(2x + 1) = 3",
+            "=> 2x^2 + x - 3 = 0",
+            "=> (2x + 3)(x - 1) = 0",
+            "=> x = 1 hr [neglecting the -ve value of x"
+        ]
+    },
+    {
+        "title":"A man complete a journey in 10 hours. He travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km. ",
+        "options":[220,224,230,234],
+        "extension":"km",
+        "answer":"B",
+        "explanation":[
+            "((1/2)x/21) + ((1/2)x/24) = 10",
+            "=> x/21 + x/24 = 20",
+            "15x = 168 * 20",
+            "x = ((168 * 20)/15) = 224 km"
+        ]
+    },
+    {
+        "title":"The ratio between the speeds of two trains is 7 : 8. If the second train runs 400 km in 4 hours, then the speed of the first train is:",
+        "options":[70,75,84,87.5],
+        "extension":"km/hr",
+        "answer":"D",
+        "explanation":[
+            "Let the speed of two trains be 7x and 8x km/hr",
+            "Then, 8x = (400/4) = 100",
+            "=> x = (100/8) = 12.5",
+            "Speed of the first train  = 7 * 12.4 km/hr = 87.5 km/hr"
+        ]
+    },
+    {
+        "title":"A man on tour travels first 160 km at 64 km/hr and the next 160 km at 80 km/hr. The average speed for the first 320 km of the tour is:",
+        "options":[35.55,36,71.11,71],
+        "extension":"km/hr",
+        "answer":"C",
+        "explanation":[
+            "Total time taken = ( 160/64 + 160/80) hrs = 9/2 hrs",
+            "Average speed = (320*(2/9))km/hr = 71.11 km/hr"
+        ]
+    },
+    {
+        "title":"A car travelling with  of its actual speed covers 42 km in 1 hr 40 min 48 sec. Find the actual speed of the car.",
+        "options":["17(6/7)",25,30,35],
+        "extension":"km/hr",
+        "answer":"D",
+        "explanation":[
+            "Time taken = 1 hr 40 min 48 sec = 1hr 40(4/5) min = 1(51/75) hrs = 126/75 hrs",
+            "Let the actual speed be x km/hr",
+            "Then, (5/7)x * 126/75 = 42",
+            "x = (42*7*75)/(5*126) = 35km/hr"
+        ]
+    }
+]
